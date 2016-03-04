@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite2" duration-ms="12265" started-at="2016-02-29T18:23:15Z" finished-at="2016-02-29T18:23:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12265" started-at="2016-02-29T18:23:15Z" finished-at="2016-02-29T18:23:28Z">
+      <class name="Tests2.LoginSuccessHandler">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests2.LoginSuccessHandler@3d24753a]" name="setUp" is-config="true" duration-ms="2365" started-at="2016-02-29T13:23:15Z" finished-at="2016-02-29T13:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isLoginSuccess(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests2.LoginSuccessHandler@3d24753a]" name="isLoginSuccess" duration-ms="9469" started-at="2016-02-29T13:23:18Z" finished-at="2016-02-29T13:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://portal-test3.econveyancepro.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pd18611]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WeAreGreat12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLoginSuccess -->
+        <test-method status="PASS" signature="tearDown1()[pri:0, instance:Tests2.LoginSuccessHandler@3d24753a]" name="tearDown1" is-config="true" duration-ms="424" started-at="2016-02-29T13:23:27Z" finished-at="2016-02-29T13:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+      </class> <!-- Tests2.LoginSuccessHandler -->
+    </test> <!-- Default test -->
+  </suite> <!-- Suite2 -->
+</testng-results>

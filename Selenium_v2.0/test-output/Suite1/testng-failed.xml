@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="loginEmail" value="seanbeecroft@gmail.com"/>
+  <parameter name="password" value="Fklfklfkl1"/>
+  <parameter name="serverURL" value="https://portal-prod3.econveyancepro.com/"/>
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="Tests2.AdminSupportSessionBC"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Tests2.AdminSupportSessionBC">
+        <methods>
+          <include name="setUp"/>
+          <include name="testUntitled"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests2.AdminSupportSessionBC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
